@@ -19,7 +19,7 @@ else:
     SITENAME = u'GollyX'
 
 PATH = 'content'
-THEME = 'gollyx-hellmouth-pelican-theme'
+THEME = 'gollyx-ii-pelican-theme'
 
 # Don't try to turn HTML files into pages
 READERS = {'html': None}
@@ -54,8 +54,8 @@ TEMPLATE_PAGES['maps.js'] = 'maps.js'
 THEME_TEMPLATES_OVERRIDES = []
 
 THEME_TEMPLATES_OVERRIDES.append('simulator')
-TEMPLATE_PAGES['simulator/hellmouthlife.html'] = 'simulator/index.html'
-TEMPLATE_PAGES['simulator/hellmouthlife.js']   = 'simulator/hellmouthlife.js'
+TEMPLATE_PAGES['simulator/ii.html'] = 'simulator/index.html'
+TEMPLATE_PAGES['simulator/ii.js']   = 'simulator/ii.js'
 
 # minilife app is used on multiple pages,
 # so it lives in golly-pelican-theme
