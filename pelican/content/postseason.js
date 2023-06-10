@@ -454,8 +454,6 @@
       var gametemplate = document.getElementById('finished-postgame-template');
       var cloneFragment = gametemplate.content.cloneNode(true);
       // Add the game id to the template game id
-      // if (minigame.hasOwnProperty('gameid')) {
-      //   cloneFragment.querySelector(".card").setAttribute("id", minigame.gameid);
       if (minigame.hasOwnProperty('id')) {
         cloneFragment.querySelector(".card").setAttribute("id", minigame.id);
       }
@@ -463,7 +461,6 @@
       seriesContainerElem.appendChild(cloneFragment);
 
       // Populate this element
-      // var elem = document.getElementById(minigame.gameid);
       var elem = document.getElementById(minigame.id);
 
       if (elem!=null) {
@@ -564,9 +561,7 @@
         }
 
         // Update simulate game button link
-        // if (minigame.hasOwnProperty('gameid')) {
         if (minigame.hasOwnProperty('id')) {
-          // var btnUrl = this.baseUIUrl + '/simulator/index.html?gameId=' + minigame.gameid;
           var btnUrl = this.baseUIUrl + '/simulator/index.html?gameId=' + minigame.id;
           var btnTags = elem.getElementsByClassName('simulate');
           var bt;
@@ -576,7 +571,6 @@
           }
         }
       } else {
-        // console.log('Could not find element for game ' + minigame.gameid);
         console.log('Could not find element for game ' + minigame.id);
       }
     },
