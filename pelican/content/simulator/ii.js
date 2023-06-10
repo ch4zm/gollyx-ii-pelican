@@ -100,16 +100,16 @@
 
       schemes : [
         {
-          aliveLabels: ['Yellow', 'Red'],
-          alive: ['#ffc20a', '#dc3220'],
+          aliveLabels: ['Blue', 'Yellow'],
+          alive: ['#3b9dff', '#ffc20a'],
         },
         {
           aliveLabels: ['Orange', 'Purple'],
           alive: ['#e66100', '#9963ab'],
         },
         {
-          aliveLabels: ['Blue', 'Red'],
-          alive: ['#3b9dff', '#dc3220'],
+          aliveLabels: ['Yellow', 'Red'],
+          alive: ['#ffc20a', '#dc3220'],
         },
         {
           aliveLabels: ['Bright', 'Not So Bright'],
