@@ -384,6 +384,7 @@
 
       // get current champion from API
       let url = this.baseApiUrl + '/champion';
+      console.log(url);
       fetch(url)
       .then(res => res.json())
       .then((apiResult) => {
@@ -425,6 +426,7 @@
               $('#' + elemId).removeClass('invisible');
             }
           }
+
           // This fails pretty often, so try a few times.
           setTimeout(paint, 100,  apiResult.teamColor, iconId);
           setTimeout(paint, 250,  apiResult.teamColor, iconId);
@@ -814,7 +816,7 @@
         } else if(mode==23) {
 
           ////////////////////////////
-          // Hellmouth Cup Series
+          // Hellmouth Cup II Series
           // Scheduled
 
           // HCS has no league, single-column
@@ -1111,7 +1113,7 @@
         } else if (mode==33) {
 
           ////////////////////////////
-          // Hellmouth Cup Series
+          // Hellmouth Cup II Series
           // In progress
 
           // HCS has no league, single-column
