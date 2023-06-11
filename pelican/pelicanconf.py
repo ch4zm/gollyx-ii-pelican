@@ -13,10 +13,7 @@ HERE = os.path.abspath(os.path.dirname(__file__))
 
 stage = os.environ.get('GOLLYX_STAGE', '')
 
-if stage=="integration":
-    SITENAME = u'GollyX456'
-else:
-    SITENAME = u'GollyX'
+SITENAME = u'Hellmouth Cup II'
 
 PATH = 'content'
 THEME = 'gollyx-ii-pelican-theme'
