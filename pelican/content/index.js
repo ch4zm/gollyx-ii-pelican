@@ -541,7 +541,6 @@
             }
 
             // Assemble team W-L records
-            console.log(game);
             if (game.hasOwnProperty('team1WinLoss') && game.hasOwnProperty('team2WinLoss')) {
               var wlstr1 = "(" + game.team1WinLoss[0] + "-" + game.team1WinLoss[1] + ")";
               var wlstr2 = "(" + game.team2WinLoss[0] + "-" + game.team2WinLoss[1] + ")";
