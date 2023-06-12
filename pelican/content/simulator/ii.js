@@ -2229,7 +2229,11 @@
         } else if (neighbors2 > neighbors1) {
           color = 2;
         } else {
-          color = 0;
+          if (x%2==y%2) {
+            color = 1;
+          } else {
+            color = 2;
+          }
         }
 
         //return neighbors;
@@ -2299,7 +2303,6 @@
        *
        */
       removeCell : function(x, y, state) {
-        console.log('removing cell x = ' + x + ' y = ' + y);
 
         // Periodic grid
         var x = this.periodicNormalizex(x);
