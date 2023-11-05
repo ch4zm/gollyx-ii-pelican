@@ -118,9 +118,9 @@ Date: 2000-01-01 00:00
     1. League Championship Series Round: one championship series per league, played amongst the top 2 teams in each
        league.
         1. The series shall be best of 5.
-    1. Hellmouth Cup Series Round: one Hellmouth Cup series, played between the winners from each league.
+    1. Hellmouth II Cup Series Round: one Hellmouth II Cup series, played between the winners from each league.
         1. The series shall be best of 7.
-1. The championship team shall be the team that wins 4 games in the Hellmouth Cup Series. They shall be declared the golly
+1. The championship team shall be the team that wins 4 games in the Hellmouth II Cup Series. They shall be declared the golly
    champion and shall remain the golly champion until a new champion is named.
 
 
