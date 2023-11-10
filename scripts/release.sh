@@ -96,7 +96,5 @@ git push --tags $REMOTE
 if [[ -e "${GOLLYX_HELLMOUTH_PELICAN_HOME}/environment.${PROMOTE_DEST_BRANCH}" ]]; then
     source "${GOLLYX_HELLMOUTH_PELICAN_HOME}/environment.${PROMOTE_DEST_BRANCH}"
     make -C "$GOLLYX_HELLMOUTH_PELICAN_HOME" deploy
-else
-    echo "Could not find environment config file ${GOLLYX_HELLMOUTH_PELICAN_HOME}/environment.${PROMOTE_DEST_BRANCH}. Unable to deploy."
 fi
 
